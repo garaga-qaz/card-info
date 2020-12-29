@@ -36,3 +36,10 @@
 |user_id|integer|null: false, foreign_key: true|
 ### Association
 - belongs_to :user
+
+
+## imagesテーブル
+|Column|Type|Options| 
+|------|----|-------| 
+|comment|text|null: false| 
+|url|string|null: false|
